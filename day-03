@@ -1,0 +1,115 @@
+software development life cycle
+
+- analysis (product ownwe ,project manager,business analyst ,cto)
+
+- design (system architect,ui/ux)
+- development (front-end developer,backend-developer)
+- testing(solutions architct.oa engineertester ,devops)
+- depolyment (data administrator,devops)
+- maintanance(users,testers,supoort managers)
+
+---
+
+WATERFALL MODEL : one ig plan ,strict order,changes are hard.
+AGILE MODEL : small steps,feedback-driven,chanegs are easy .
+
+---
+
+Waterfall = one big plan,strict order,changes are hard.
+Agile = small steps,felxible,feedback-driven,changes are easy.
+
+---
+
+- planning
+- reqanalysis
+- designing
+- implementation'
+- testing
+- deployment
+
+---
+
+- water fall : waterfall model provides a linesr sequential approch to managing software projects.
+  each pahse depends on deliveries from the previous one.
+- agile is highly dyanmic and itrative approcah whereyou do not need thr complete set of requiremnts to start with.
+  you can devlop some features and check custmer response beofre next steps.
+- Devops is an agile methaldology encomposing developemnt (dev)
+  and operations(ops).it enables end-to-end life cycle deleivery of features,fixes and updates at frequent intervals.
+
+---
+
+👉 For exams:
+Waterfall = sequential  
+Agile = iterative  
+DevOps = continuous + automated
+
+---
+
+- 15 days
+- automating and continuous
+
+---
+
+Devops is a software methadology which improves the collaboartion btween developers and operations team using various automation tools.
+
+- these automation tools are implemented using various stages which are a part of the devops lifecycle.
+
+---
+
+to run an application ,you must purchase the computing ,storage,and hardware .
+Cloud computing minimizes these upfront expenses,and ou can rent or lease hardware from cloud providers such as AWS /Azure/GCP.
+
+---
+
+🔄 CI/CD Life Cycle Explained
+
+1. Code Commit
+   Developer pushes code to GitHub.
+
+This triggers the pipeline in Jenkins.
+
+2. Build & Test
+   Maven compiles the code.
+
+Unit tests are executed to ensure functionality.
+
+3. Code Quality & Security
+   SonarQube performs static code analysis (quality checks).
+
+Trivy scans for vulnerabilities in dependencies and container images.
+
+A Quality Gate ensures only clean code passes forward.
+
+4. Artifact Management
+   Maven packages the application.
+
+The artifact (e.g., .jar or .war) is stored in Nexus Repository for versioning and reuse.
+
+5. Containerization
+   Docker builds and tags the image.
+
+The image is pushed to a registry for deployment.
+
+6. Deployment
+   Kubernetes orchestrates deployment of the Docker image.
+
+Ensures scalability, load balancing, and resilience.
+
+7. Monitoring & Feedback
+   Prometheus collects metrics.
+
+Grafana visualizes dashboards for performance monitoring.
+
+Notifications (e.g., via email) alert developers about pipeline status.
+
+8. Verification
+   Deployment is verified to ensure the application is running correctly.
+
+## Security scans and platform declarations confirm compliance.
+
+## what is teraform ??
+
+- terafoerm is the cloud automation tool
+- ansible is the deployment automation tool
+- kuberbnates is also deployment automation tool.
+-
