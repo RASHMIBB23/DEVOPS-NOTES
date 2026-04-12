@@ -73,6 +73,7 @@ git --version
 * working directory
 * staging area
 * repository area
+* the staging area
 
 
 --------------------------------------------------
