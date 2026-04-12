@@ -1,54 +1,91 @@
-* what if someone dleteds my code?
-2) how to track the code.
-3) who did what and when?
-4) colloborate.
+- what if someone dleteds my code?
 
-------------------------------------------------
+2. how to track the code.
+3. who did what and when?
+4. colloborate.
+
+---
+
 ## what is git?
-* git is a version control system.
 
-*it is a tool that help to changes in the code
-* git is used when u are working in the local.
-----------------------------------------------
+- git is a version control system.
+
+\*it is a tool that help to changes in the code
+
+- git is used when u are working in the local.
+
+---
+
 Git → A tool that helps you track changes in your code (version control system).
 
-GitHub → A website/platform where you can store your Git projects online and collaborate with others.
--------------------------------------------------------------------------------------------------------------------
+## GitHub → A website/platform where you can store your Git projects online and collaborate with others.
 
-* There are many version control tools available:
-1) git 
-2) svn
-3) cvs
-$ ) tfs
+- There are many version control tools available:
 
-git (Global information tracker) 
-------------------------------------------------------------
-* git(global information tracker) -source code management tool.
-It is  version control system or tool which is used to track versions files and directories.
--------------------------------------------------------------------------------------------------------------
+1. git
+2. svn
+3. cvs
+   $ ) tfs
+
+## git (Global information tracker)
+
+- git(global information tracker) -source code management tool.
+  It is version control system or tool which is used to track versions files and directories.
+
+---
+
 ## why git is called as version control tool?
-* Git is called a version control tool because it manages and tracks changes to files (especially source code) over time. Here’s the simple breakdown:
--------------------------------------------------------------------------------------------------------------------
 
+- Git is called a version control tool because it manages and tracks changes to files (especially source code) over time. Here’s the simple breakdown:
 
-who developed the git 
-* linus torval in 2005
-------------------------------------------------------------------------
+---
+
+who developed the git
+
+- linus torval in 2005
+
+---
+
 DIFFERENCE BETWEEN THE GIT AND SVN .
-* git is a distributed version control, sytem,system means whole reository will be there in the local also also in the remote .
-* svn i sthe centarlized version control system. where we have the latesr versio of code in the local wrkspace.
-* if you want to switch to previous version of coee you can do it the local workspace itself.
-* git hase the features like rebase,fetch and stash etc.
+
+- git is a distributed version control, sytem,system means whole reository will be there in the local also also in the remote .
+- svn i sthe centarlized version control system. where we have the latesr versio of code in the local wrkspace.
+- if you want to switch to previous version of coee you can do it the local workspace itself.
+- git hase the features like rebase,fetch and stash etc.
 
 svn - it is the centralized version controlled dysytem where we have only the lastest version of code in the local workspace.
-* if you want to switch to previous versios of code then you need to checkout that previos version from central.
-* it doesm't have direct commands.
-----------------------------------------------------------------------------
-$$ HOW TO INSTALL GIT 
+
+- if you want to switch to previous versios of code then you need to checkout that previos version from central.
+- it doesm't have direct commands.
+
+---
+
+$$
+HOW TO INSTALL GIT
 * sudo apt update
-* sudo apt install -y git 
+* sudo apt install -y git
 
 
 git --version
 
 -------------------------------------------------------------------------------------------
+* THERE ARE 3 STAGES IN THE LOCAL REPOSITORY
+* working directory
+* staging area
+* repository area
+
+
+--------------------------------------------------
+THERE IS ONE STAGE IN THE REMOTE STAGE
+* repository (head).
+* to add the work file to the staging area
+* git add <filename>
+* git add .
+* git add -u.
+
+8) git commit -m <msg> "this will commit the files from staging area to git area.
+9) git log :  It shows the history of the repository.
+10)-m to send the message
+11) to track the files
+12)
+$$
