@@ -1,3 +1,6 @@
 master branch is default branch.
 * and get sthe copied to the new branch
 * git branch checkout is the (PUTTING INTO ONE BRANCH INTO ANOTHER BRANCH ).
+* git branch -D rashmi (TO DELETE THE BRANCH)
+* git branch -m priyan shetty 
+* how to craete the branch simply click on bracnhes 
