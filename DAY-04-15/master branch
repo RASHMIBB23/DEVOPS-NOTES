@@ -11,3 +11,12 @@ master branch is default branch.
 * MERGE 
 * REBASE
 * SQUASH MERGE 
+Merge → Keeps everything, adds a merge commit.
+
+Rebase → Rewrites history, makes it linear.
+
+Squash → Condenses many commits into one.
+
+keeps evrything adds the merge commit 
+rebase -> makes vevrything as the linear 
+squash merge -> con desed many commits into one 
