@@ -25,3 +25,5 @@ squash merge -> con desed many commits into one after the another
 git checkout master 
 git fetch origin 
 git push origin/main 
+-----------------------------------------------
+now give the github inside
