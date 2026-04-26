@@ -24,3 +24,5 @@ aws s3api list-buckets --query "Buckets[].Name" --output text
 
 - what do u mean the commit amend
 - it means the modifying the lastest commit instaed of creating the new one
+
+* for the direct authentication
