@@ -30,3 +30,5 @@ aws s3api list-buckets --query "Buckets[].Name" --output text
 * while cloning onlywe have given the authentication so it is not asking
 * there is anothe rname called git tage
   \*tags are the set of names given to different versions of files
+* name given to teh certain version of files
+* git push origin tagename
