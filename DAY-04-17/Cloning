@@ -7,3 +7,4 @@ suod install yum -y install
 
 * is to make the code changes to review and a=safe merging into the main branch
 * safe merging into the main branch
+* create the new barnch and works on it and do the merge the branch on it
