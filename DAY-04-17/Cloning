@@ -1,1 +1,2 @@
 suod install yum -y install 
+* then connect to th eec2 instances
