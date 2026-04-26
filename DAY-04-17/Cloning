@@ -4,3 +4,6 @@ suod install yum -y install
 - after adding the collaboraters the smae code id you ahve to paste and continue further
 - after adding go to the collaborator and do it
 - why the does the pull request is done
+
+* is to make the code changes to review and a=safe merging into the main branch
+* safe merging into the main branch
