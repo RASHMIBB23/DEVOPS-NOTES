@@ -26,3 +26,4 @@ aws s3api list-buckets --query "Buckets[].Name" --output text
 - it means the modifying the lastest commit instaed of creating the new one
 
 * for the direct authentication
+* git clone ausername:user token @ github gmail.com
