@@ -8,3 +8,19 @@ suod install yum -y install
 * is to make the code changes to review and a=safe merging into the main branch
 * safe merging into the main branch
 * create the new barnch and works on it and do the merge the branch on it
+
+```bash
+#!/bin/bash
+set -euo pipefail
+
+if ! command -v aws >/dev/null 2>&1; then
+    echo "Error: aws CLI is not installed."
+    exit 1
+fi
+
+echo "Listing S3 buckets..."
+aws s3api list-buckets --query "Buckets[].Name" --output text
+```
+
+- what do u mean the commit amend
+- it means the modifying the lastest commit instaed of creating the new one
