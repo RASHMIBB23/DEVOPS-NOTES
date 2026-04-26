@@ -26,4 +26,4 @@ git checkout master
 git fetch origin 
 git push origin/main 
 -----------------------------------------------
-now give the github inside
+now give the github inside and git outting inisde 
