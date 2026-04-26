@@ -28,3 +28,5 @@ aws s3api list-buckets --query "Buckets[].Name" --output text
 * for the direct authentication
 * git clone ausername:user token @ github gmail.com
 * while cloning onlywe have given the authentication so it is not asking
+* there is anothe rname called git tage
+  \*tags are the set of names given to different versions of files
