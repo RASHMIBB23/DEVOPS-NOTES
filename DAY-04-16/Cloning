@@ -46,3 +46,16 @@ branching startergy
 
 git fetch -> it downloads teh code from th remote repository.
 git pull-> it download the code from the local repository and the merge the repository
+what is the purpose of the pull request
+
+- it helps of the pr merge
+- its heple to write the code ,before merging we can able to discuss teh code
+- gitignore is a file
+  some enviromental fikes is tored tehre
+  what is git stah??
+  -used for uncommited work.
+  - to save the uncommited code and suddenly you want to shift the branches for tht u have to use
+  * what is teh difference between the git reset and git revert->
+  * git reset-> moves to the main branch
+  * git revert->
+    revert created branch new commit this commit changes only gets chenged from thr preevius comment
