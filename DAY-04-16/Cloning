@@ -32,3 +32,7 @@ aws s3api list-buckets --query "Buckets[].Name" --output text
   \*tags are the set of names given to different versions of files
 * name given to teh certain version of files
 * git push origin tagename
+
+---
+
+branching startergy
