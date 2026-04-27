@@ -36,3 +36,6 @@ aws s3api list-buckets --query "Buckets[].Name" --output text
 ---
 
 branching startergy
+
+- manager created the fature branch and the commited things ae come intro the fature1.
+- it doesnpt pusointo the main barch it is a separate branch
