@@ -1,3 +1,9 @@
-maven is  toll is  used to building of the java -based project
-* after building the code the it as converted into teh artifacts 
-* 
+maven is toll is used to building of the java -based project
+
+- after building the code the it as converted into teh artifacts
+- final exceutable code
+- artifacts are the files which are build during the build
+- the maven ,gradle,ant
+- go inside teh maven after building the java code ,you will find the pom.xml
+- how to build the
+- hoe to build the project is expalined in the pom.xml file
