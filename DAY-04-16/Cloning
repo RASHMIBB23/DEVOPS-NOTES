@@ -59,3 +59,14 @@ what is the purpose of the pull request
   * git reset-> moves to the main branch
   * git revert->
     revert created branch new commit this commit changes only gets chenged from thr preevius comment
+    ---
+    ---
+    Default branch (main): The primary branch shown when someone visits the repo; base for new pull requests.
+
+Feature branches: Created from main to develop new features or fixes in isolation.
+
+Pull requests (PRs): Used to merge changes from a branch into main with code review.
+
+Branch protection rules: Prevent direct pushes, enforce PR reviews, CI checks, or require status checks before merging.
+
+Merge methods: GitHub supports merge commits, squash merges, and rebase merges, depending on your workflow
