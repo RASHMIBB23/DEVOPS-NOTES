@@ -70,3 +70,5 @@ Pull requests (PRs): Used to merge changes from a branch into main with code rev
 Branch protection rules: Prevent direct pushes, enforce PR reviews, CI checks, or require status checks before merging.
 
 Merge methods: GitHub supports merge commits, squash merges, and rebase merges, depending on your workflow
+
+\*git commit --amend in github
