@@ -36,3 +36,12 @@ maven is toll is used to building of the java -based project
 * pacakge
 * verify
 * insrtall deployemnt
+
+* mvn valitae
+* mvn test
+* mav pacakge
+* mvn deplymnet
+* mvn test
+* mvn compile
+* mvn install
+* mvn deploy
