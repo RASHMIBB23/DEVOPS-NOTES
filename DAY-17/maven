@@ -17,3 +17,12 @@ maven is toll is used to building of the java -based project
 * verify->run checks to ensure package meets quality standars
 * install-> place a package into the loacl maven repository for use in other projects
 * deploy->copy the package to a remote repository for sharing with other devopers
+  the entire code is built in .war,.jasr and all
+  - artifacts are teh final executable package of the code.
+  * executable code
+  * maven
+    \*install the maven
+  * if teh java project is buid using the maven then it is containd the pom.xml file
+  * project object model .xml file
+  * .jar is for simple applications
+    .war is for large applicxations
