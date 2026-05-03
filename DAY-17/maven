@@ -37,10 +37,12 @@ maven is toll is used to building of the java -based project
 * verify
 * insrtall deployemnt
 
-* mvn validate(check evrything ais there or not)
-* mvn test
-* mav pacakge
-* mvn deplymnet
-* mvn test
-* mvn compile(java language compile 0 or 1 )
-* mvn pacakge(war files is there)
+validate-> check the project structure
+
+- complie->compile sourcse code
+- test -> run unit tests
+- pacakge-> bundle into the jar./war
+- verify -> run integrated checks
+- install -> put atififact in local repo
+- mvn
+- the ware file is converted into the accisible file from th einternet
