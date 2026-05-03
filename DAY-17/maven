@@ -25,4 +25,14 @@ maven is toll is used to building of the java -based project
   * if teh java project is buid using the maven then it is containd the pom.xml file
   * project object model .xml file
   * .jar is for simple applications
-    .war is for large applicxations
+  * .war is for large applicxations
+  * how to build the projecy os instraucted in the pom.xml file
+  * which java versions to use which additoanl pgins to use(additional softwares)\
+
+* where there is the pom.xml is tehre theerw we can give only 7 commands
+* validate
+* compie
+* test
+* pacakge
+* verify
+* insrtall deployemnt
