@@ -1,0 +1,14 @@
+git clone hhtp://
+
+- go inside the file
+- mvn validate(error no pom xml file)
+- first we have take and we have to do mavn complie
+
+- mvn compile(eroor)
+- mvn package(error) /build sucess
+
+- war file is created
+- go inside the target->war fiele is present
+- mvn verify9it checks the artifate does it validate the package)
+- mvn deploy(error) where to deply the devoplement should know
+- next class we will see how to acess this folder from the internet.
