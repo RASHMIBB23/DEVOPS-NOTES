@@ -1,1 +1,10 @@
 pom.xml containes the project information and configuration detatils used by maven.
+maven how to build the project os shownn in the pim.xml
+
+- DEFAULT LIFE CYCLE PHASES:
+- validate-> chcke if the project structure and required information are correct.
+- compile-> compile the source code unto byte code.
+- test -> run test using the frameworks like junit.
+- package-> bundle compile code into distributed format
+- verify->run checks to ensure package meets quality standars
+- install-> place a package into the loacl maven repository
