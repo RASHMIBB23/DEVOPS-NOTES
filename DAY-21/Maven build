@@ -26,4 +26,8 @@ mvn -v
 
 source ~/.bashrc
 mvn clean package
-in side the targert file the war file is present
+in side the targert file the war file is present we need to use the apache tocat to acess the server
+
+---
+
+when u give the .war file to the apache mavne it conecverts that file into applicable access from the internet.
