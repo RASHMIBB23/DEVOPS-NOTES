@@ -30,3 +30,16 @@ AFTER GETTING INSIDE THE TOMCAT SERVER
   <user username="tomcat" password="tomcat" roles="tomcat,manager-gui"/>
   <user username="both" password="tomcat" roles="tomcat,role1"/>
   <user username="role1" password="tomcat" roles="role1"/>
+
+---
+
+- we need to run only in the 9090
+- se cd.. (of conf/)
+- ## cd webapps/manager/META-INF/(\***\*\*\*\***)IMPORTANT.
+- ll
+- context.xml
+- vi context.xml
+- ## <!--- <Valve className="org.apache.catalina.valves.RemoteCIDRValve"
+           allow="127.0.0.0/8,::1/128" /> -->(comment out) *******
+
+*
