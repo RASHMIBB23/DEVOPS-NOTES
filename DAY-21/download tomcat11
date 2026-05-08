@@ -25,6 +25,9 @@ AFTER GETTING INSIDE THE TOMCAT SERVER
 - get inside the conf/
 - tomcat users.xml
 - change the username and passowrd
+
+* comment out fisrt and tehn do it
+
 - <role rolename="tomcat"/>
   <role rolename="role1"/>
   <user username="tomcat" password="tomcat" roles="tomcat,manager-gui"/>
@@ -42,4 +45,6 @@ AFTER GETTING INSIDE THE TOMCAT SERVER
 - ## <!--- <Valve className="org.apache.catalina.valves.RemoteCIDRValve"
            allow="127.0.0.0/8,::1/128" /> -->(comment out) *******
 
-*
+* then come inside the apche-maven-bin(run)
+* ./shutdown.sh
+* ./startup.sh
