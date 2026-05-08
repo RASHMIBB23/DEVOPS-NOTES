@@ -1,0 +1,19 @@
+wget tomcat hhtps link 
+* tar -zvxf 
+z → Use gzip to decompress (.tar.gz or .tgz files).
+
+v → Verbose mode (shows the files being extracted).
+
+x → Extract files from the archive.
+
+f → File name is provided (must be followed by the archive name)
+------------------------------------------------------------------------------
+
+* cd tapche-tomcat.22.1
+* going inside the bin folder and starting the bin folder 
+* ./startup.sh(this will be running the port 8080) 
+* cd conf/
+* go inside the server.xml
+* go for the connector prot and cahnge the port 
+* ./shutdown.sh
+* ./startup.sh
