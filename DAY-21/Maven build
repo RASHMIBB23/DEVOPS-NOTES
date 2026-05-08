@@ -8,3 +8,21 @@ maven how to build the project os shownn in the pim.xml
 - package-> bundle compile code into distributed format
 - verify->run checks to ensure package meets quality standars
 - install-> place a package into the loacl maven repository
+  ------------------------------sudo apt update
+  sudo apt install openjdk-21-jdk
+
+---
+
+export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64
+export PATH=$JAVA_HOME/bin:$PATH
+
+---
+
+java -version
+javac -version
+mvn -v
+
+---
+
+source ~/.bashrc
+mvn clean package
