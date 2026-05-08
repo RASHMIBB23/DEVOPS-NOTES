@@ -26,3 +26,4 @@ mvn -v
 
 source ~/.bashrc
 mvn clean package
+in side the targert file the war file is present
