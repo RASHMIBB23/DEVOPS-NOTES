@@ -1,0 +1,72 @@
+- continious integration
+- continuos deployment
+- whenevr t he changes made in the guthub the canghed as to be done in tehe tomcat
+- so u cant manualy always push the web server into the tomcat
+- and then u manyually make mistakes
+
+---
+
+- when u have done the chnages in the guthub so and then it should directly push to theserver after building it .
+- when u push the chnages into the server it is called as the
+- continus integration
+- automatically pull the chnages.
+- and build it and run the test caes and automatically and nofify to the mangaes whether there code is good or bad.(mangers,user1,user2).
+
+---
+
+Jenkins follows a master–agent (controller–node) architecture where the Jenkins controller manages tasks, plugins, and configurations, while agents (nodes) execute builds and tests across distributed environments. This design enables scalability, flexibility, and efficient CI/CD pipelines.
+
+---
+
+Controller
+Central server that hosts the Jenkins UI and core services.
+
+AGENTS
+Remote or local machines that perform build/test tasks.
+
+Jobs
+Defined tasks (build, test, deploy) configured via UI or Jenkinsfile.
+
+Plugins
+Extend Jenkins functionality (SCM integration, Docker, Kubernetes, etc.).
+
+Pipelines
+Declarative or scripted workflows defined in code (Jenkinsfile).
+
+-----------------------------------------------------CI → Continuous Integration: Developers frequently merge code into a shared repo, and every change is automatically built and tested.
+
+CD → Continuous Delivery: Ensures that code passing CI is always in a deployable state, ready for release at any time.
+
+## CDN → Continuous Deployment: Goes one step further — every validated change is automatically released to production without manual approval.
+
+JENKINS:is an open source automation tool witten in java with plugins c
+for continious intgeration.
+
+- jenkins is used to build and test your test ur software projects so the when deveopers push the make the changes to theproject.
+
+jenkins is software tool helps in building ,testing and deployment of the applications.
+
+- eqvilanet toolos lik github,gitlab,git actions, azure,devops,aws devops,
+
+---
+
+THE JENKINS WORK ON THE CLIENT -SERVER ARCHITECTURE
+CLIENT(AGENT)-> RUNS THE JOBS..
+SERVER(CONTROLLER) -> manages the jobs and pipelines.
+
+---
+
+- ls -al /var/lib/jenkins
+- to check the confix.xml
+- delete the elmentary
+- cd /car/lib/jenkins
+- check for the config.xml
+- vi edit and delete it
+- delete the file given
+- close
+- sudo -i
+- ll
+- get into secrets
+- get into password
+- get the password
+- run it
