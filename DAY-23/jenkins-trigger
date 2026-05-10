@@ -1,0 +1,16 @@
+jenkins
+* var/lib/jenkins
+* ll
+* cd jenkins model jenkins locationconfiguration.xml
+*  sudo vi jenkins.model.JenkinsLocationConfiguration.xml
+* building the triggers 
+-----------------------------------------------------------------------
+* when to build the scripts automatically.
+* then the next setting i sthere (3RD SETTINGS) 
+* in which 
+* it will show the 
+* ADD JENKINS IP LINK ADRESS 
+* give only the webhooks
+* give the hhtp login 
+* click on the url 
+* it will show whether the localhost is running or not 
