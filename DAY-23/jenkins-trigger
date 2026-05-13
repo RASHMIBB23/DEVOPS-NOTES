@@ -5,6 +5,8 @@ jenkins
 *  sudo vi jenkins.model.JenkinsLocationConfiguration.xml
 * building the triggers 
 -----------------------------------------------------------------------
+3) THIS IS THE 3RD WAY OF TRIGERING.
+
 * when to build the scripts automatically.
 * then the next setting i sthere (3RD SETTINGS) 
 * in which 
@@ -13,4 +15,8 @@ jenkins
 * give only the webhooks
 * give the hhtp login 
 * click on the url 
-* it will show whether the localhost is running or not 
+* it will show whether the localhost is running or not
+------------------------------------------------------------------------
+
+5) TRIGGER IT WILL SHOW 
+* even when u write thenPoll SCM it will show the even when u right * * * * it will give only the single time
