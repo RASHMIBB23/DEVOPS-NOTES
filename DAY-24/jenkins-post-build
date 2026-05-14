@@ -1,0 +1,8 @@
+thsi is a new installation of tools thinsg Aggregate downstream test results – Collects test results from child/triggered jobs into one summary
+Archive the artifacts – Saves build output files (like JARs, WARs) so you can download them later
+Build other projects – Triggers another Jenkins job after this one completes
+Publish JUnit test result report – Displays test pass/fail results in a readable report
+Record fingerprints of files to track usage – Tracks which builds produced/used specific files
+Git Publisher – Pushes changes (tags, branches) back to Git after a successful build
+E-mail Notification – Sends an email when a build fails or recovers
+Delete workspace when build is done – Cleans up all build files to free up disk space
